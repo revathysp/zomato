@@ -1,0 +1,252 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img667/food.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 45px;
+    padding-left:8px;
+    padding-right: 8px;
+}
+.logo
+{
+    position: relative;
+    color: white;
+    top: 5px;
+    font-size: 45px;
+    letter-spacing: 1px;
+   cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    padding: 10px 35px;
+}
+ul li:hover
+{
+    background-color: red;
+    transition: 0.6s;
+}
+
+
+.content
+{
+    overflow: hidden;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 28%;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+h6{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    top: 20px;
+}
+button
+{
+ text-align: center;
+ font-size: 24px;
+ position: relative;
+ top: 8px;
+ /* padding: 10px; */
+ color: rgb(120, 135, 142);
+ cursor: pointer;
+ background-color: rgb(196, 187, 187);
+ padding: 10px 12px;
+ border: none;
+}
+button:hover
+{
+background-color: transparent;
+transition: 0.8s;
+cursor: pointer;
+background-color: red;
+}
+
+.main1
+{
+ width: 100%;
+ height: 90vh;
+ background-color: white;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ margin: 50px 0;
+ overflow: hidden;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius: 15%;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+p
+{
+    font:10px;
+    color: rgb(113, 109, 109);
+    text-align: center;
+    cursor: pointer;
+}
+.collections
+{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    overflow: hidden;
+}
+h2{
+    color: black;
+    font-size: 35px;
+    position: relative;
+    left: 20px;
+    
+}
+h5
+{
+    color: rgb(113, 108, 108);
+    font-size: 20px;
+    position: relative;
+    /* right: 0.5px; */
+    
+}
+img
+{
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius: 15%;
+}
+
+.a{
+    position: relative;
+    top: 10px;
+    justify-content: space-evenly;
+ }
+
+ .b{
+    position: relative;
+    top: 10px;
+    justify-content: space-evenly;
+ }
+
+ .c{
+    position: relative;
+    top: 10px;
+    justify-content: space-evenly;
+ }
+
+ .d{
+    position: relative;
+    top: 10px;
+    justify-content: space-evenly;
+ }
+ .bottom
+ {
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  overflow: hidden;
+ }
+ h4{
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    font-size: 50px;
+ }
+ .pq
+ {
+    width: 320px;
+    height: 370px;
+    position: relative;
+    left: 200px;
+ }
+  .innerbox
+ {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+ }
+ #fa
+ {
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top: 10%;
+    left: 55px;
+ }
+ .pp
+ {
+    position: relative;
+    background-color: transparent;
+    top: 150px;
+    left: 300px;
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgb(244, 238, 239);
+
+ }
+ .mm
+ {
+    position: relative;
+    background-color: transparent;
+    top: 250px;
+    left: 300px;
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgb(228, 215, 218);
+
+ }
+ .uu
+ {
+    position: relative;
+    background-color: transparent;
+    top: 350px;
+    left: 300px;
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgb(228, 215, 218);
+
+ }
+ .yy
+ {
+    position: relative;
+    background-color: transparent;
+    top: 450px;
+    left: 300px;
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgb(228, 215, 218);
+
+ }
+
